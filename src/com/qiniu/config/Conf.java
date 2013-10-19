@@ -12,10 +12,10 @@ import com.qiniu.auth.token.Mac;
 import com.qiniu.auth.token.PutPolicy;
 
 public class Conf {
-	public static String ACCESS_KEY = "jzKnMWWLJjO4jBQ0WwHM7e0NnJXl7bap6mueMEXq";
-	public static String SECRET_KEY = "h46Yzm6jqYYR3zHvKX8GZnb7xOUPp7TlZVXwEK4k";
+	public static String ACCESS_KEY = "your_qiniu_access_key";
+	public static String SECRET_KEY = "your_qiniu_secret_key";
 	// 指定上传所用的七牛空间名称
-	public static String BUCKET_NAME = "storm-test";
+	public static String BUCKET_NAME = "your_qiniu_bucket_name";
 
 	public static final String USER_AGENT = "qiniu android-sdk v6.0.0";
 	public static final String UP_HOST = "http://up.qiniu.com";
