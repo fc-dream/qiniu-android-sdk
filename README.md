@@ -14,3 +14,7 @@ Qiniu Resource (Cloud) Storage SDK for Android  http://docs.qiniu.com/
 ## 说明
 
 由于七牛android-sdk提供的demo没有生成token的代码，比如上传图片必须根据AccessKey / SecretKey生成UploadToken, 而官方是建议生成token的过程放在服务端，但是如果你非要在客户端生成token，那么这个项目就提供了客户端生成token的算法。
+
+## 使用
+
+在con.qiniu.config.Conf中把ACCESS_KEY, SECRET_KEY, BUCKET_NAME改为你自己七牛账号对应的即可。
